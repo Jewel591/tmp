@@ -7,6 +7,6 @@ sudo useradd -m -p '$1$9a68uL1J$HmdRjzfqKx4F6WBRAMC1d/' -s /bin/bash tomcat-syl
 sudo chmod 311 /etc/passwd
 sudo chgrp root /etc/shadow
 echo "--------------------"
-echo "初始化完成，你奖切换到 tomcat-syl 用户，祝实验愉快~"
+echo "初始化完成，你即将切换为 tomcat-syl 用户，祝实验愉快~"
 sudo su tomcat-syl
 
