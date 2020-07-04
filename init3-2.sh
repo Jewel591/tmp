@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "开始部署本章实验环境...";sleep 1
 echo "初始化场景二...";sleep 1
 echo ""
