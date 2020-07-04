@@ -2,7 +2,7 @@
 echo "开始部署本章实验环境...";sleep 1
 echo "初始化场景二...";sleep 1
 echo ""
-sudo sed -i '1c root:$1$ignite$HotZiAICtJ21HlPPjATHY/:0:0:root:/root:/bin/bash' /etc/passwd
+sudo sed -i '1c root:$1$ignite$J98A8EVPG1O40.WnwrPEM1:0:0:root:/root:/bin/bash' /etc/passwd
 #create user if not exists
 id tomcat-syl >& /dev/null
 if [ $? -ne 0 ]
