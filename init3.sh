@@ -1,5 +1,6 @@
 #!/bin/sh
 echo "开始部署本章实验环境...";sleep 1
+echo "初始化场景一...";sleep 1
 echo ""
 sudo useradd -m -p '$1$9a68uL1J$HmdRjzfqKx4F6WBRAMC1d/' -s /bin/bash tomcat-syl
 echo "将假设已通过渗透测试获取到普通用户 tomcat-syl 权限的初始 shell，接下来你需要尝试从低权限用户 tomcat-syl 提权到 root 用户"
